@@ -34,6 +34,12 @@ const log = message => {
 
 
 
+
+
+
+
+
+
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selam') {
     msg.reply('Aleyküm Selam Naber Canım <a:galp:755430335553994782> ');
@@ -65,11 +71,27 @@ client.on('message', msg => {
 
 
 
+
+
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'frenzycrew nedir') {
+  if (msg.content.toLowerCase() === 'frenzy kimdir') {
     msg.reply('<a:wup:755430328159698954> FrenzyCrew Adamın Dibidir! <a:wup:755430328159698954>');
   }
 });
+
+
+
+
+
+
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'frenzy kimdir') {
+    msg.reply('<a:wup:755430328159698954> FrenzyCrew Adamın Dibidir! <a:wup:755430328159698954>');
+  }
+});
+
+
 
 
 
@@ -998,7 +1020,5 @@ if (!oldMsg.guild) return;
 
 
 
-client.on("ready", () => {
-  client.channels.get("751555316143095871").join();
-   //main dosyaya atılacak
-})
+
+
